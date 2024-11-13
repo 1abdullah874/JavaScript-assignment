@@ -53,3 +53,39 @@ function studentsorting() {
 studentsorting()
 
  */
+/* Module 1.5
+
+
+
+function Isleapyear(){
+
+  const year = prompt("Enter Year you want to check")
+  let message;
+
+  if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    message = `${year} is a leap year.`;
+  } else {
+    message = `${year} is not a leap year.`;
+  }
+  document.getElementById("target5").textContent = message;
+}
+
+Isleapyear()\
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
